@@ -36,7 +36,7 @@ public class TakenRepairmanRequestsServlet extends HttpServlet {
             rd.forward(req, res);
         } catch (Exception e) {
             e.printStackTrace();
-            throw new ServletException("Unable to load assigned requests", e);
+            throw new ServletException("Unable to Load Assigned Requests", e);
         }
     }
 }
