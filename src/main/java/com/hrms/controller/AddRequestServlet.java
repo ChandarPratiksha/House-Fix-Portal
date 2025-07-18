@@ -32,7 +32,7 @@ public class AddRequestServlet extends HttpServlet {
             
             if (userId == -1) {
                 // Something’s wrong — no such user
-                res.sendError(HttpServletResponse.SC_BAD_REQUEST, "User not found.");
+                res.sendError(HttpServletResponse.SC_BAD_REQUEST, "Unable to find user.");
                 return;
             }
 
